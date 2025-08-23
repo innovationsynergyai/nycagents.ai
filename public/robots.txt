@@ -1,0 +1,69 @@
+# NYC AI Agent - Innovation Synergy AI Inc.
+# Optimized for maximum New York City search visibility and AI crawler access
+# Author: Innovation Synergy AI Inc @2025
+
+User-agent: *
+Allow: /
+
+# Disallow sensitive areas
+Disallow: /admin/
+Disallow: /backend/
+Disallow: /internal/
+Disallow: /private/
+Disallow: /api/
+
+# Priority AI-compatible crawlers for maximum visibility
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Anthropic-ai
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: Applebot
+Allow: /
+
+User-agent: bingbot
+Allow: /
+
+User-agent: facebookexternalhit
+Allow: /
+
+User-agent: LinkedInBot
+Allow: /
+
+User-agent: TwitterBot
+Allow: /
+
+# NYC-specific sitemap for geographic SEO
+Sitemap: https://nycagents.ai/sitemap.xml
+
+# Optimal crawl settings for NYC market dominance
+Crawl-delay: 1
+Host: nycagents.ai
+
+# SEO Keywords targeted:
+# NYC AI, New York AI, NYC business automation, AI consulting NYC
+# New York AI services, Manhattan AI consulting
+# NYC small business AI, AI integration NYC, NYC AI consulting company
+# Innovation Synergy AI NYC, New York business automation

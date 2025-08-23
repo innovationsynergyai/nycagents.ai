@@ -19,7 +19,7 @@ export default function AIDisclosurePage() {
             Last Updated: January 31, 2025
           </p>
 
-          <div className="bg-gold-50 border-l-4 border-gold-500 p-6 mb-8">
+          <div className="bg-steel-50 border-l-4 border-steel-500 p-6 mb-8">
             <h2 className="font-display text-2xl font-semibold text-black-900 mb-4">
               Important AI Technology Disclosure
             </h2>
@@ -194,7 +194,7 @@ export default function AIDisclosurePage() {
           <section className="mb-12">
             <h2 className="font-display text-2xl font-semibold text-black-900 mb-4">AI System Limitations and Risks</h2>
 
-            <div className="bg-gold-50 border-l-4 border-gold-500 p-6 mb-6">
+            <div className="bg-steel-50 border-l-4 border-steel-500 p-6 mb-6">
               <h3 className="font-display text-lg font-semibold text-black-900 mb-3">Known Limitations</h3>
               <p className="text-black-900 mb-3">Our AI systems may have limitations including:</p>
               <ul className="text-black-900 space-y-1">
@@ -265,7 +265,7 @@ export default function AIDisclosurePage() {
                 <ul className="text-neutral-700 text-sm space-y-1">
                   <li>• Email: info@innovationsynergyai.com</li>
                   <li>• Phone: 1-800-AI-ISSUE (1-800-244-7783)</li>
-                  <li>• Online form: miamiagents.ai/ai-feedback</li>
+                  <li>• Online form: nycagents.ai/ai-feedback</li>
                 </ul>
               </div>
             </div>
@@ -306,9 +306,9 @@ export default function AIDisclosurePage() {
                 <br />
                 AI Disclosure and Ethics Department
                 <br />
-                Miami, FL
+                Incorporated in Delaware
               </p>
-              <div className="bg-gold-500 text-black-900 p-4 rounded-lg mt-6">
+              <div className="bg-steel-500 text-white-50 p-4 rounded-lg mt-6">
                 <p className="font-semibold text-center">
                   REMEMBER: You are always interacting with artificial intelligence when using Isabella Concierge
                   services. Human assistance is available upon request.

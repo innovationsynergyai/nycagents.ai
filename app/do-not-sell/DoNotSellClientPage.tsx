@@ -93,19 +93,19 @@ export default function DoNotSellClientPage() {
           </p>
 
           <section className="mb-12">
-            <h2 className="font-display text-2xl font-semibold text-black-900 mb-4">Your California Privacy Rights</h2>
+            <h2 className="font-display text-2xl font-semibold text-black-900 mb-4">Your New York Privacy Rights</h2>
             <p className="text-neutral-700 leading-relaxed mb-4">
-              Under the California Consumer Privacy Act (CCPA) and California Privacy Rights Act (CPRA), California
+              Under New York privacy laws, including the SHIELD Act, and applicable federal privacy regulations, New York
               residents have the right to opt out of the &quot;sale&quot; or &quot;sharing&quot; of their personal
               information. This page allows you to exercise that right.
             </p>
-            <div className="bg-gold-50 border-l-4 border-gold-500 p-4 mb-6">
+            <div className="bg-steel-50 border-l-4 border-steel-500 p-4 mb-6">
               <p className="text-black-900 font-semibold">
                 <strong>Important AI Disclosure:</strong> Our services utilize artificial intelligence and machine
                 learning technologies to process personal information. By using our services or interacting with our AI
                 voice agents, you acknowledge that you are communicating with an AI system and consent to the processing
                 of your personal information as described in our{" "}
-                <Link href="/privacy-policy" className="underline hover:text-gold-500 transition-colors">
+                <Link href="/privacy-policy" className="underline hover:text-steel-500 transition-colors">
                   Privacy Policy
                 </Link>
                 .
@@ -118,9 +118,9 @@ export default function DoNotSellClientPage() {
               What Does &quot;Sale&quot; or &quot;Sharing&quot; Mean?
             </h2>
             <p className="text-neutral-700 leading-relaxed mb-4">
-              Under California law, &quot;sale&quot; means disclosing personal information to third parties for monetary
+              Under New York and federal privacy laws, &quot;sale&quot; means disclosing personal information to third parties for monetary
               or other valuable consideration. &quot;Sharing&quot; means disclosing personal information to third
-              parties for cross-context behavioral advertising.
+              parties for cross-context behavioral advertising, including for marketing purposes.
             </p>
 
             <h3 className="font-display text-xl font-semibold text-black-900 mb-3">Information We May Share</h3>
@@ -598,25 +598,25 @@ export default function DoNotSellClientPage() {
             <ul className="text-neutral-700 mb-6 space-y-1">
               <li>
                 •{" "}
-                <Link href="/privacy-policy" className="underline hover:text-gold-500 transition-colors">
+                <Link href="/privacy-policy" className="underline hover:text-steel-500 transition-colors">
                   Privacy Policy
                 </Link>
               </li>
               <li>
                 •{" "}
-                <Link href="/terms-of-service" className="underline hover:text-gold-500 transition-colors">
+                <Link href="/terms-of-service" className="underline hover:text-steel-500 transition-colors">
                   Terms of Service
                 </Link>
               </li>
               <li>
                 •{" "}
-                <Link href="/cookie-policy" className="underline hover:text-gold-500 transition-colors">
+                <Link href="/cookie-policy" className="underline hover:text-steel-500 transition-colors">
                   Cookie Policy
                 </Link>
               </li>
               <li>
                 •{" "}
-                <Link href="/ai-disclosure" className="underline hover:text-gold-500 transition-colors">
+                <Link href="/ai-disclosure" className="underline hover:text-steel-500 transition-colors">
                   AI Disclosure Notice
                 </Link>
               </li>

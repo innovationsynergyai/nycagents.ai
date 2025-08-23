@@ -20,28 +20,28 @@ const playfairDisplay = Playfair_Display({
 })
 
 export const metadata: Metadata = {
-  title: "New York City AI Agent | Innovation Synergy AI - #1 New York City Business Automation",
-  description: "New York City's leading AI consulting company. Innovation Synergy AI provides custom voice agents, business automation, and AI integration services for New York City and New England small businesses. Local expertise, cutting-edge technology.",
-  keywords: "New York City AI, New York City business automation, AI consulting New York City, New York AI services, New England AI, New York City small business AI, voice agents New York City, Innovation Synergy AI New York City, AI integration New York City, New York City AI consulting company, New York business automation, New England AI consulting",
+  title: "NYC AI Agent | Innovation Synergy AI - #1 NYC Business Automation",
+  description: "NYC's leading AI consulting company. Innovation Synergy AI provides custom voice agents, business automation, and AI integration services for New York City small businesses. Manhattan expertise, cutting-edge technology.",
+  keywords: "NYC AI, NYC business automation, AI consulting NYC, New York AI services, Manhattan AI, NYC small business AI, voice agents NYC, Innovation Synergy AI NYC, AI integration NYC, NYC AI consulting company, New York business automation, Manhattan AI consulting",
   viewport: "width=device-width, initial-scale=1.0",
   authors: [{ name: "Innovation Synergy AI Inc." }],
   robots: "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
   verification: {
-    google: "boston-ai-agent-innovation-synergy",
+    google: "nyc-ai-agent-innovation-synergy",
   },
   alternates: {
     canonical: "https://nycagents.ai"
   },
   openGraph: {
     title: "New York City AI Agent | Innovation Synergy AI - New York City Business Automation Leader",
-    description: "New York City's premier AI consulting company serving New York and New England. Custom voice agents, automation, and AI integration for New York City small businesses.",
+    description: "New York City's premier AI consulting company serving Manhattan, Brooklyn, Queens, Bronx, and Staten Island. Custom voice agents, automation, and AI integration for New York City small businesses.",
     url: "https://nycagents.ai",
     siteName: "New York City AI Agent - Innovation Synergy AI",
     type: "website",
     locale: "en_US",
     images: [
       {
-        url: "https://nycagents.ai/og-image-boston-ai.jpg",
+        url: "https://nycagents.ai/og-image-nyc-ai.jpg",
         width: 1200,
         height: 630,
         alt: "New York City AI Agent - Innovation Synergy AI"
@@ -51,15 +51,15 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "New York City AI Agent | Innovation Synergy AI - New York City Business Automation",
-    description: "New York City's leading AI consulting company. Custom voice agents and business automation for New York small businesses.",
+    description: "New York City's leading AI consulting company. Custom voice agents and business automation for NYC small businesses.",
     creator: "@InnovationSynergyAI",
-    images: ["https://nycagents.ai/twitter-card-boston-ai.jpg"]
+    images: ["https://nycagents.ai/twitter-card-nyc-ai.jpg"]
   },
   other: {
-    "geo.region": "US-MA",
+    "geo.region": "US-NY",
     "geo.placename": "New York City",
-    "geo.position": "42.3601;-71.0589",
-    "ICBM": "42.3601, -71.0589"
+    "geo.position": "40.7128;-74.0060",
+    "ICBM": "40.7128, -74.0060"
   },
   generator: "Innovation Synergy AI Inc.",
 }
@@ -87,25 +87,26 @@ export default function RootLayout({
               "email": "info@innovationsynergyai.com",
               "address": {
                 "@type": "PostalAddress",
-                "streetAddress": "Innovation District",
+                "streetAddress": "Financial District",
                 "addressLocality": "New York City",
-                "addressRegion": "MA",
-                "postalCode": "02210",
+                "addressRegion": "NY",
+                "postalCode": "10005",
                 "addressCountry": "US"
               },
               "geo": {
                 "@type": "GeoCoordinates",
-                "latitude": 42.3601,
-                "longitude": -71.0589
+                "latitude": 40.7128,
+                "longitude": -74.0060
               },
               "areaServed": [
                 "New York City",
-                "New York", 
-                "New England",
-                "Cambridge",
-                "Somerville",
-                "Quincy",
-                "Newton"
+                "Manhattan",
+                "Brooklyn", 
+                "Queens",
+                "Bronx",
+                "Staten Island",
+                "Long Island",
+                "Westchester County"
               ],
               "serviceType": ["AI Consulting", "Business Automation", "Voice Agent Development", "AI Integration"],
               "priceRange": "$$$",
@@ -116,10 +117,10 @@ export default function RootLayout({
             })
           }}
         />
-        <meta name="geo.region" content="US-MA" />
+        <meta name="geo.region" content="US-NY" />
         <meta name="geo.placename" content="New York City" />
-        <meta name="geo.position" content="42.3601;-71.0589" />
-        <meta name="ICBM" content="42.3601, -71.0589" />
+        <meta name="geo.position" content="40.7128;-74.0060" />
+        <meta name="ICBM" content="40.7128, -74.0060" />
         <link rel="canonical" href="https://nycagents.ai" />
       </head>
       <body className={cn(inter.variable, playfairDisplay.variable, "min-h-screen antialiased")}>

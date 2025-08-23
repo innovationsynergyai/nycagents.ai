@@ -2,7 +2,7 @@ import type { Metadata } from "next"
 
 export const metadata: Metadata = {
   title: "Terms of Service | New York City AI Agent - Innovation Synergy AI New York City",
-  description: "Terms of Service for New York City's premier AI consulting company. Innovation Synergy AI New York City serves New York and New England businesses.",
+  description: "Terms of Service for New York City's premier AI consulting company. Innovation Synergy AI New York City serves New York City and the greater NYC metropolitan area.",
 }
 
 export default function TermsOfServicePage() {
@@ -14,7 +14,7 @@ export default function TermsOfServicePage() {
           <p className="text-neutral-600 mb-8">
             <strong>Innovation Synergy AI Inc.</strong>
             <br />
-            Incorporated in Delaware | Serving New York City, Miami, NYC, and New England
+            Incorporated in Delaware | Serving New York City and the Greater NYC Metropolitan Area
             <br />
             Effective Date: January 31, 2025
             <br />
@@ -128,8 +128,8 @@ export default function TermsOfServicePage() {
             </h3>
             <p className="text-neutral-700 leading-relaxed mb-4">
               Service fees are based on the selected tier and are billed monthly in advance. All fees are exclusive of
-              applicable taxes, duties, and governmental assessments, which shall be your responsibility. Delaware state tax
-              laws apply where applicable.
+              applicable taxes, duties, and governmental assessments, which shall be your responsibility. New York state tax
+              laws apply to services provided in New York.
             </p>
 
             <h3 className="font-display text-xl font-semibold text-black-900 mb-3">3.2 Payment Schedule and Methods</h3>
@@ -173,7 +173,7 @@ export default function TermsOfServicePage() {
               <p className="text-neutral-700 leading-relaxed">
                 EXCEPT FOR EXCLUDED CLAIMS (DEFINED BELOW), EACH PARTY'S TOTAL LIABILITY ARISING OUT OF OR RELATED TO
                 THIS AGREEMENT SHALL NOT EXCEED THE TOTAL AMOUNT PAID BY CUSTOMER IN THE 12 MONTHS PRECEDING THE CLAIM.
-                This agreement is governed by Delaware state law.
+                This agreement is governed by New York state law for services provided in New York.
               </p>
             </div>
 
@@ -195,7 +195,7 @@ export default function TermsOfServicePage() {
                 <strong>Email:</strong> info@innovationsynergyai.com
               </p>
               <p className="mb-4">
-                <strong>Address:</strong> New York City, MA (Primary Operations) | Incorporated in Delaware
+                <strong>Address:</strong> Incorporated in Delaware
               </p>
               <p className="text-sm text-neutral-300">
                 Effective Date: January 31, 2025 | Last Updated: January 31, 2025 | Version: 1.0

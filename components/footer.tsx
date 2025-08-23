@@ -9,7 +9,7 @@ export default function Footer() {
         <div className="space-y-4">
           <h3 className="font-display text-2xl font-light text-white-50 tracking-wide">INNOVATION SYNERGY AI</h3>
           <p className="text-sm text-neutral-400 uppercase tracking-wide">
-            BOSTON AI AGENT
+            NEW YORK CITY AI AGENT
           </p>
           <p className="text-sm text-steel-500 uppercase tracking-wide">
             GEOGRAPHIC-SPECIFIC AI SOLUTIONS FOR AMERICAN BUSINESSES
@@ -24,7 +24,7 @@ export default function Footer() {
             </a>
           </p>
           <p className="text-sm text-neutral-400">Phone: Available via consultation</p>
-          <p className="text-sm text-neutral-400">Headquarters: New York City, MA | Incorporated in Delaware</p>
+          <p className="text-sm text-neutral-400">Incorporated in Delaware</p>
         </div>
         <div className="space-y-4">
           <h4 className="text-lg font-semibold text-white-50">Legal</h4>
@@ -56,6 +56,10 @@ export default function Footer() {
               <Link href="/ai-disclosure" className="text-neutral-400 hover:text-steel-500 transition-colors">
                 AI Disclosure
               </Link>
+            </div>
+            <div className="text-xs text-neutral-500 mt-2">
+              <p>Licensed to conduct business in New York State</p>
+              <p>Compliant with NY SHIELD Act and NYC business regulations</p>
             </div>
             <Link
               href="/do-not-sell" // Updated link

@@ -22,7 +22,7 @@ export default function PrivacyPolicyPage() {
           <section className="mb-12">
             <h2 className="font-display text-2xl font-semibold text-black-900 mb-4">Introduction</h2>
             <p className="text-neutral-700 leading-relaxed mb-4">
-              Innovation Synergy AI Inc. ("Company," "we," "us," or "our"), incorporated in Delaware, operates AI consulting and integration services serving New York City, Miami, New York City, and throughout New England. We specialize in providing AI infrastructure solutions to American small businesses. We are committed to protecting the privacy and security of personal information
+              Innovation Synergy AI Inc. ("Company," "we," "us," or "our"), incorporated in Delaware, operates AI consulting and integration services serving New York City and the greater New York metropolitan area. We specialize in providing AI infrastructure solutions to American small businesses. We are committed to protecting the privacy and security of personal information
               collected through our services and website.
             </p>
             <p className="text-neutral-700 leading-relaxed mb-4">
@@ -104,10 +104,10 @@ export default function PrivacyPolicyPage() {
             <h2 className="font-display text-2xl font-semibold text-black-900 mb-4">Your Privacy Rights</h2>
 
             <h3 className="font-display text-xl font-semibold text-black-900 mb-3">
-              Rights Under Delaware and Multi-State Law
+              Rights Under New York Law
             </h3>
             <p className="text-neutral-700 leading-relaxed mb-4">
-              As a Delaware corporation serving multiple states, we comply with all applicable federal and state privacy laws. You have the following rights:
+              As a business operating in New York, we comply with the New York SHIELD Act and all applicable federal and state privacy laws. You have the following rights:
             </p>
             <ul className="text-neutral-700 mb-6 space-y-2">
               <li>
@@ -153,6 +153,14 @@ export default function PrivacyPolicyPage() {
 
           <section className="mb-12">
             <h2 className="font-display text-2xl font-semibold text-black-900 mb-4">Data Security</h2>
+            
+            <div className="bg-steel-50 border-l-4 border-steel-500 p-4 mb-6">
+              <h3 className="font-display text-lg font-semibold text-black-900 mb-2">New York SHIELD Act Compliance</h3>
+              <p className="text-black-900">
+                We comply with New York's Stop Hacks and Improve Electronic Data Security (SHIELD) Act, which requires reasonable security measures for private information of New York residents.
+              </p>
+            </div>
+            
             <p className="text-neutral-700 leading-relaxed mb-4">
               We implement comprehensive security measures to protect personal information:
             </p>
@@ -163,7 +171,14 @@ export default function PrivacyPolicyPage() {
               <li>• Multi-factor authentication for system access</li>
               <li>• Regular security audits and penetration testing</li>
               <li>• SOC 2 Type II compliance and certification</li>
+              <li>• Data breach response procedures compliant with NY SHIELD Act</li>
+              <li>• Employee training on data protection and privacy requirements</li>
             </ul>
+            
+            <h3 className="font-display text-xl font-semibold text-black-900 mb-3">Data Breach Notification</h3>
+            <p className="text-neutral-700 leading-relaxed mb-4">
+              In accordance with New York law, we will notify affected individuals and the New York Attorney General's office without unreasonable delay if we experience a data breach affecting private information of New York residents.
+            </p>
           </section>
 
           <section className="mb-12">
@@ -183,7 +198,7 @@ export default function PrivacyPolicyPage() {
                 <br />
                 Privacy Department
                 <br />
-                New York City, MA (Primary Operations)
+                Incorporated in Delaware
               </p>
               <p className="text-sm text-neutral-300">Last Updated: January 31, 2025 | Version: 1.0</p>
             </div>

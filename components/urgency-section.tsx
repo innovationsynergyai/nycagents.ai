@@ -6,7 +6,7 @@ export default function UrgencySection() {
     <section className="py-20 bg-steel-500 text-black-900">
       <div className="container max-w-7xl mx-auto px-6 lg:px-8 flex flex-col items-center justify-center text-center">
         <p className="text-2xl md:text-3xl font-semibold mb-8 tracking-wide">
-          LIMITED: 25 Q1 2025 BOSTON DEPLOYMENT SLOTS REMAINING
+          LIMITED: 25 Q1 2025 NYC DEPLOYMENT SLOTS REMAINING
         </p>
         <Button
           asChild

@@ -83,7 +83,7 @@ export default function RootLayout({
               "name": "Innovation Synergy AI Inc. - New York City AI Agent",
               "description": "New York City's leading AI consulting company providing custom voice agents and business automation services",
               "url": "https://nycagents.ai",
-              "telephone": "+1-800-AI-BOSTON",
+              "telephone": "+1-800-AI-NYC",
               "email": "info@innovationsynergyai.com",
               "address": {
                 "@type": "PostalAddress",

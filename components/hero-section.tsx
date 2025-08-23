@@ -15,7 +15,7 @@ export default function HeroSection() {
           New York City's AI-Powered Business <span className="text-steel-500">Agent</span>
         </h1>
         <p className="text-2xl md:text-3xl font-semibold tracking-[0.2em] mt-16 mb-4 animate-fade-in-up stagger-600">
-          BOSTON AI AGENT
+          NYC AI AGENT
         </p>
         <p className="text-lg md:text-xl text-neutral-300 tracking-wide mb-3 animate-fade-in-up stagger-700">
           POWERED BY INNOVATION SYNERGY AI

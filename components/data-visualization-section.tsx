@@ -2,36 +2,42 @@ import Image from "next/image"
 import { cn } from "@/lib/utils"
 
 export default function DataVisualizationSection() {
-  const dataVisualizations = [
+  const services = [
     {
-      id: "properties-shortage",
-      title: "Small Businesses Using Outdated Systems",
-      stat: "87%",
-      description: "Still relying on manual processes and inefficient workflows",
-      chart: "/professional_chart_1_properties.png",
+      id: "consultation",
+      title: "AI Strategy Consultation",
+      description: "Professional guidance on AI implementation opportunities for your business",
       className: "animate-fade-in-up stagger-0",
-      titleClassName: "text-black-900", // Add this
-      statClassName: "text-steel-500", // Add this
+      titleClassName: "text-black-900",
+      icon: (
+        <svg className="h-16 w-16 text-steel-500 mx-auto mb-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
+        </svg>
+      )
     },
     {
-      id: "turnover-rate",
-      title: "Daily Hours Lost to Manual Tasks",
-      stat: "4.2 hrs",
-      description: "Time that could be automated with AI infrastructure",
-      chart: "/professional_chart_2_turnover.png",
+      id: "development",
+      title: "Custom AI Development",
+      description: "Tailored artificial intelligence solutions designed for your specific requirements",
       className: "animate-fade-in-up stagger-200",
-      titleClassName: "text-black-900", // Add this
-      statClassName: "text-steel-500", // Add this
+      titleClassName: "text-black-900",
+      icon: (
+        <svg className="h-16 w-16 text-steel-500 mx-auto mb-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />
+        </svg>
+      )
     },
     {
-      id: "response-time",
-      title: "Customer Response Time Without AI",
-      stat: "6+ Hours",
-      description: "Average delay in customer service inquiries",
-      chart: "/professional_chart_3_response.png",
+      id: "automation",
+      title: "Process Automation",
+      description: "Streamline your business workflows with intelligent automation systems",
       className: "animate-fade-in-up stagger-400",
-      titleClassName: "text-black-900", // Add this
-      statClassName: "text-steel-500", // Add this
+      titleClassName: "text-black-900",
+      icon: (
+        <svg className="h-16 w-16 text-steel-500 mx-auto mb-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
+        </svg>
+      )
     },
   ]
 
@@ -39,37 +45,26 @@ export default function DataVisualizationSection() {
     <section id="crisis-data" className="py-32 bg-white-50">
       <div className="container max-w-7xl mx-auto px-6 lg:px-8">
         <p className="text-steel-600 text-xs font-semibold tracking-[0.3em] uppercase text-center mb-6">
-          REAL 2025 DATA
+          OUR SERVICES
         </p>
         <h2 className="font-display text-5xl md:text-7xl font-light text-black-900 text-center mb-8">
-          New York City Market Analysis
+          Miami AI Solutions
         </h2>
         <p className="text-xl md:text-2xl text-neutral-600 text-center mb-24 max-w-4xl mx-auto font-light leading-relaxed">
-          New York City small businesses require specialized AI solutions for regional market optimization
+          Professional artificial intelligence consulting and development services for Miami businesses
         </p>
 
-        <div className="grid grid-cols-1 gap-24">
-          {dataVisualizations.map((item) => (
+        <div className="grid grid-cols-1 gap-16 md:grid-cols-3">
+          {services.map((service) => (
             <div
-              key={item.id}
-              className={cn("flex flex-col items-center text-center max-w-3xl mx-auto w-full", item.className)}
+              key={service.id}
+              className={cn("flex flex-col items-center text-center", service.className)}
             >
-              <h3 className={cn("font-display text-4xl md:text-5xl font-semibold mb-4", item.titleClassName)}>
-                {item.title}
+              {service.icon}
+              <h3 className={cn("font-display text-2xl md:text-3xl font-semibold mb-4", service.titleClassName)}>
+                {service.title}
               </h3>
-              <p className={cn("text-6xl md:text-7xl font-bold mb-6", item.statClassName)}>{item.stat}</p>
-              <p className="text-neutral-700 text-lg mb-8 max-w-xs">{item.description}</p>
-              <div className="w-full max-w-[900px] h-auto">
-                <Image
-                  src={item.chart || "/placeholder.svg"}
-                  alt={item.title}
-                  width={900} // Increased by 50% from 600
-                  height={600} // Increased by 50% from 400
-                  layout="responsive"
-                  objectFit="contain"
-                  className="rounded-lg shadow-lg"
-                />
-              </div>
+              <p className="text-neutral-700 text-lg max-w-sm">{service.description}</p>
             </div>
           ))}
         </div>
